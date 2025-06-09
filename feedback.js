@@ -300,7 +300,7 @@ function showFeedbackSuccess() {
                 <p>We appreciate you taking the time to share your thoughts with us. Your feedback helps us improve our services.</p>
                 <p>A confirmation has been sent to your email address.</p>
                 <div class="success-actions">
-                    <button class="btn-primary" onclick="location.href='index.html'">Return to Home</button>
+                    <button class="btn-primary" onclick="location.href='/Sinefolis-Website/index.html'">Return to Home</button>
                 </div>
             </div>
         `
