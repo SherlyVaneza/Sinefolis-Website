@@ -338,7 +338,7 @@ function handleLoginSubmit(e) {
 
       // Redirect to home page
       setTimeout(() => {
-        window.location.href = "index.html"
+        window.location.href = "/Sinefolis-Website/index.html"
       }, 1500)
     }, 2000)
   }
@@ -399,7 +399,7 @@ function handleSignupSubmit(e) {
 
       // Redirect to home page
       setTimeout(() => {
-        window.location.href = "index.html"
+        window.location.href = "/Sinefolis-Website/index.html"
       }, 1500)
     }, 2000)
   }
@@ -423,7 +423,7 @@ function logout() {
 
   // Redirect to home page
   setTimeout(() => {
-    window.location.href = "index.html"
+    window.location.href = "/Sinefolis-Website/index.html"
   }, 1500)
 }
 
