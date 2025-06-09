@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Movie data
 const moviesData = {
   dune: {
-    img: "/pict/landscape_poster/dune2.webp",
+    img: "/Sinefolis-Website/pict/landscape_poster/dune2.webp",
     title: "Dune: Part Two",
     genre: "Action, Sci-Fi",
     rating: "8.5/10",
@@ -16,7 +16,7 @@ const moviesData = {
     cinemas: ["Grand Indonesia", "Senayan City", "Central Park", "Summarecon Serpong", "23 Paskal"],
   },
   batman: {
-    img: "/pict/landscape_poster/theBatman.jpeg",
+    img: "/Sinefolis-Website/pict/landscape_poster/theBatman.jpeg",
     title: "The Batman",
     genre: "Action, Crime",
     rating: "7.8/10",
@@ -25,7 +25,7 @@ const moviesData = {
     cinemas: ["Grand Indonesia", "Central Park", "Summarecon Bekasi", "AEON Sentul City"],
   },
   topgun: {
-    img: "/pict/landscape_poster/topgun.jpeg",
+    img: "/Sinefolis-Website/pict/landscape_poster/topgun.jpeg",
     title: "Top Gun: Maverick",
     genre: "Action, Drama",
     rating: "8.3/10",
@@ -34,7 +34,7 @@ const moviesData = {
     cinemas: ["Central Park", "Summarecon Serpong", "Paris Van Java", "Malioboro Mall"],
   },
   oppenheimer: {
-    img: "/pict/landscape_poster/oppenheimer.jpg",
+    img: "/Sinefolis-Website/pict/landscape_poster/oppenheimer.jpg",
     title: "Oppenheimer",
     genre: "Drama, Biography",
     rating: "8.4/10",
@@ -43,7 +43,7 @@ const moviesData = {
     cinemas: ["Grand Indonesia", "Senayan City", "Plaza Indonesia", "Paris Van Java", "23 Paskal", "Paragon Mall"],
   },
   killers: {
-    img: "/pict/landscape_poster/flowerMoon.jpg",
+    img: "/Sinefolis-Website/pict/landscape_poster/flowerMoon.jpg",
     title: "Killers of the Flower Moon",
     genre: "Drama, Crime",
     rating: "7.6/10",
@@ -52,7 +52,7 @@ const moviesData = {
     cinemas: ["Senayan City", "Plaza Indonesia", "Summarecon Serpong", "Paris Van Java", "Malioboro Mall"],
   },
   maestro: {
-    img: "/pict/landscape_poster/maestro.jpeg",
+    img: "/Sinefolis-Website/pict/landscape_poster/maestro.jpeg",
     title: "Maestro",
     genre: "Drama, Biography",
     rating: "6.5/10",
@@ -61,7 +61,7 @@ const moviesData = {
     cinemas: ["Grand Indonesia", "Central Park", "Pakuwon Mall", "Sun Plaza"],
   },
   barbie: {
-    img: "/pict/landscape_poster/barbie.jpg",
+    img: "/Sinefolis-Website/pict/landscape_poster/barbie.jpg",
     title: "Barbie",
     genre: "Comedy, Adventure",
     rating: "6.9/10",
@@ -70,7 +70,7 @@ const moviesData = {
     cinemas: ["Grand Indonesia", "Senayan City", "Central Park", "Summarecon Serpong", "Summarecon Bekasi", "Pakuwon Mall", "Trans Studio Makassar"],
   },
   "cocaine-bear": {
-    img: "/pict/landscape_poster/cocaine Bear.avif",
+    img: "/Sinefolis-Website/pict/landscape_poster/cocaine Bear.avif",
     title: "Cocaine Bear",
     genre: "Comedy, Thriller",
     rating: "5.9/10",
@@ -79,7 +79,7 @@ const moviesData = {
     cinemas: ["Grand Indonesia", "Central Park", "Summarecon Serpong", "Paris Van Java", "23 Paskal"],
   },
   air: {
-    img: "/pict/landscape_poster/air.jpeg",
+    img: "/Sinefolis-Website/pict/landscape_poster/air.jpeg",
     title: "Air",
     genre: "Comedy, Drama",
     rating: "7.4/10",
@@ -88,7 +88,7 @@ const moviesData = {
     cinemas: ["Senayan City", "Plaza Indonesia", "Summarecon Bekasi", "AEON Sentul City", "Summarecon Serpong"],
   },
   scream: {
-    img: "/pict/landscape_poster/screamVI.jpeg",
+    img: "/Sinefolis-Website/pict/landscape_poster/screamVI.jpeg",
     title: "Scream VI",
     genre: "Horror, Mystery",
     rating: "6.5/10",
@@ -97,7 +97,7 @@ const moviesData = {
     cinemas: ["Grand Indonesia", "Central Park", "Summarecon Serpong", "The Breeze BSD", "Paris Van Java"],
   },
   "evil-dead": {
-    img: "/pict/landscape_poster/evilDead.jpg",
+    img: "/Sinefolis-Website/pict/landscape_poster/evilDead.jpg",
     title: "Evil Dead Rise",
     genre: "Horror",
     rating: "6.5/10",
@@ -106,7 +106,7 @@ const moviesData = {
     cinemas: ["Senayan City", "Summarecon Serpong", "Summarecon Bekasi", "23 Paskal", "Pakuwon Mall"],
   },
   insidious: {
-    img: "/pict/landscape_poster/insidious.jpeg",
+    img: "/Sinefolis-Website/pict/landscape_poster/insidious.jpeg",
     title: "Insidious: The Red Door",
     genre: "Horror, Mystery",
     rating: "5.5/10",
@@ -115,7 +115,7 @@ const moviesData = {
     cinemas: ["Central Park", "Paris Van Java", "23 Paskal", "AEON Sentul City", "Summarecon Bekasi", "Sun Plaza", "Pakuwon Mall"],
   },
   avatar: {
-    img: "/pict/landscape_poster/avatar.jpg",
+    img: "/Sinefolis-Website/pict/landscape_poster/avatar.jpg",
     title: "Avatar: The Way of Water",
     genre: "Sci-Fi, Adventure",
     rating: "7.6/10",
@@ -124,7 +124,7 @@ const moviesData = {
     cinemas: ["Grand Indonesia", "Senayan City", "Plaza Indonesia", "Summarecon Serpong", "Paris Van Java", "Summarecon Bekasi", "AEON Mall"],
   },
   spiderverse: {
-    img: "/pict/landscape_poster/spiderman.jpg",
+    img: "/Sinefolis-Website/pict/landscape_poster/spiderman.jpg",
     title: "Spider-Man: Across the Spider-Verse",
     genre: "Animation, Sci-Fi",
     rating: "8.7/10",
@@ -133,7 +133,7 @@ const moviesData = {
     cinemas: ["Grand Indonesia", "Central Park", "Summarecon Serpong", "Summarecon Bekasi", "23 Paskal", "Pakuwon Mall", "Malioboro Mall"],
   },
   transformers: {
-    img: "/pict/landscape_poster/transformers.jpg",
+    img: "/Sinefolis-Website/pict/landscape_poster/transformers.jpg",
     title: "Transformers: Rise of the Beasts",
     genre: "Sci-Fi, Action",
     rating: "6.0/10",
