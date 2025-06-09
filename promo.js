@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Promo data with detailed information
 const promoData = {
   member50: {
-    img: "/pict/promo/member50.jpg",
+    img: "/Sinefolis-Website/pict/promo/member50.jpg",
     title: "Member 50% Off Weekend",
     code: "MEMBER50",
     type: "member",
@@ -24,7 +24,7 @@ const promoData = {
     ],
   },
   buy2get1: {
-    img: "/pict/promo/buy2get1.jpg",
+    img: "/Sinefolis-Website/pict/promo/buy2get1.jpg",
     title: "Buy 2 Get 1 Free Tickets",
     code: "BUY2GET1",
     type: "general",
@@ -41,7 +41,7 @@ const promoData = {
     ],
   },
   freepopcorn: {
-    img: "/pict/promo/freePopcorn.jpg",
+    img: "/Sinefolis-Website/pict/promo/freePopcorn.jpg",
     title: "Free Large Popcorn",
     code: "FREEPOPCORN",
     type: "member",
@@ -58,7 +58,7 @@ const promoData = {
     ],
   },
   student30: {
-    img: "/pict/promo/studentDiscount.jpg",
+    img: "/Sinefolis-Website/pict/promo/studentDiscount.jpg",
     title: "Student Discount 30%",
     code: "STUDENT30",
     type: "general",
@@ -75,7 +75,7 @@ const promoData = {
     ],
   },
   family4: {
-    img: "/pict/promo/familyPackage.jpg",
+    img: "/Sinefolis-Website/pict/promo/familyPackage.jpg",
     title: "Family Package Deal",
     code: "FAMILY4",
     type: "general",
@@ -92,7 +92,7 @@ const promoData = {
     ],
   },
   birthday: {
-    img: "/pict/promo/birthdaySpecial.jpg",
+    img: "/Sinefolis-Website/pict/promo/birthdaySpecial.jpg",
     title: "Birthday Special Offer",
     code: "BIRTHDAY",
     type: "general",
@@ -110,7 +110,7 @@ const promoData = {
     ],
   },
   vipupgrade: {
-    img: "/pict/promo/vipUpgrade.jpg",
+    img: "/Sinefolis-Website/pict/promo/vipUpgrade.jpg",
     title: "Free VIP Upgrade",
     code: "VIPUPGRADE",
     type: "member",
@@ -127,7 +127,7 @@ const promoData = {
     ],
   },
   earlybird: {
-    img: "/pict/promo/earlyBird.jpg",
+    img: "/Sinefolis-Website/pict/promo/earlyBird.jpg",
     title: "Early Bird 25% Off",
     code: "EARLYBIRD",
     type: "general",
@@ -282,7 +282,7 @@ function copyPromoCode(code) {
 
 function usePromoCode(code) {
   // Redirect to Now Showing page
-  window.location.href = "now-showing.html"
+  window.location.href = "/Sinefolis-Website/now-showing.html"
 }
 
 function formatDate(dateString) {
