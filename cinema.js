@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Cinema data with detailed information
 const cinemaData = {
   "grand-indonesia": {
-    img: "/pict/cinema/GrandIndonesia.jpg",
+    img: "/Sinefolis-Website/pict/cinema/GrandIndonesia.jpg",
     name: "Sinéfolis Grand Indonesia",
     city: "Jakarta",
     address: "Jl. M.H. Thamrin No.1, Menteng, Jakarta Pusat 10310",
@@ -19,7 +19,7 @@ const cinemaData = {
       "Located in the heart of Jakarta, our Grand Indonesia location offers the ultimate premium cinema experience with state-of-the-art IMAX and 4DX technology.",
   },
   "senayan-city": {
-    img: "/pict/cinema/senayanCity.jpg",
+    img: "/Sinefolis-Website/pict/cinema/senayanCity.jpg",
     name: "Sinéfolis Senayan City",
     city: "Jakarta",
     address: "Jl. Asia Afrika No.8, Gelora, Jakarta Selatan 10270",
@@ -31,7 +31,7 @@ const cinemaData = {
       "Experience movies like never before at our Senayan City location, featuring luxurious VIP seating and crystal-clear Dolby Atmos sound.",
   },
   "plaza-indonesia": {
-    img: "/pict/cinema/plazaIndonesia.jpg",
+    img: "/Sinefolis-Website/pict/cinema/plazaIndonesia.jpg",
     name: "Sinéfolis Plaza Indonesia",
     city: "Jakarta",
     address: "Jl. M.H. Thamrin Kav. 28-30, Menteng, Jakarta Pusat 10350",
@@ -43,7 +43,7 @@ const cinemaData = {
       "Our Plaza Indonesia cinema combines luxury and comfort with premium seating and exclusive dining options for the ultimate movie experience.",
   },
   "central-park": {
-    img: "/pict/cinema/centralPark.jpeg",
+    img: "/Sinefolis-Website/pict/cinema/centralPark.jpeg",
     name: "Sinéfolis Central Park",
     city: "Jakarta",
     address: "Jl. Letjen S. Parman Kav. 28, Tanjung Duren, Jakarta Barat 11470",
@@ -55,7 +55,7 @@ const cinemaData = {
       "Perfect for families and thrill-seekers, our Central Park location features exciting 4DX technology and family-friendly amenities.",
   },
   "summarecon-serpong": {
-    img: "/pict/cinema/SummareconSerpong.jpg",
+    img: "/Sinefolis-Website/pict/cinema/SummareconSerpong.jpg",
     name: "Sinéfolis Summarecon Serpong",
     city: "Tangerang",
     address: "Jl. Boulevard Gading Serpong, Kelapa Dua, Tangerang 15810",
@@ -67,7 +67,7 @@ const cinemaData = {
       "Our largest location in Tangerang, featuring spectacular IMAX screens and luxurious VIP experiences in the heart of Serpong.",
   },
   "breeze-bsd": {
-    img: "/pict/cinema/TheBreeze.jpg",
+    img: "/Sinefolis-Website/pict/cinema/TheBreeze.jpg",
     name: "Sinéfolis The Breeze BSD",
     city: "Tangerang",
     address: "Jl. Grand Boulevard, BSD City, Tangerang Selatan 15345",
@@ -79,7 +79,7 @@ const cinemaData = {
       "Enjoy movies with a view at our BSD location, featuring premium screens and unique rooftop dining experiences.",
   },
   "summarecon-bekasi": {
-    img: "/pict/cinema/SummareconBekasi.jpg",
+    img: "/Sinefolis-Website/pict/cinema/SummareconBekasi.jpg",
     name: "Sinéfolis Summarecon Bekasi",
     city: "Bekasi",
     address: "Jl. Boulevard Ahmad Yani, Marga Mulya, Bekasi 17142",
@@ -91,7 +91,7 @@ const cinemaData = {
       "Entertainment beyond movies! Our Bekasi location features thrilling 4DX experiences and an exciting gaming zone for the whole family.",
   },
   "paris-van-java": {
-    img: "/pict/cinema/pvj.webp",
+    img: "/Sinefolis-Website/pict/cinema/pvj.webp",
     name: "Sinéfolis Paris Van Java",
     city: "Bandung",
     address: "Jl. Sukajadi No.131-139, Sukajadi, Bandung 40162",
@@ -103,7 +103,7 @@ const cinemaData = {
       "Experience cinema with stunning mountain views in Bandung. Our Paris Van Java location offers IMAX technology in a beautiful setting.",
   },
   "paskal-23": {
-    img: "/pict/cinema/paskal.jpg",
+    img: "/Sinefolis-Website/pict/cinema/paskal.jpg",
     name: "Sinéfolis 23 Paskal",
     city: "Bandung",
     address: "Jl. Pasir Kaliki No.25-27, Ciroyom, Bandung 40181",
@@ -115,7 +115,7 @@ const cinemaData = {
       "Popular with students and young professionals, our 23 Paskal location offers great entertainment with special student pricing.",
   },
   "aeon-sentul": {
-    img: "/pict/cinema/aeonSentul.jpg",
+    img: "/Sinefolis-Website/pict/cinema/aeonSentul.jpg",
     name: "Sinéfolis AEON Sentul City",
     city: "Bogor",
     address: "Jl. MH. Thamrin No.1, Sentul City, Bogor 16810",
@@ -127,7 +127,7 @@ const cinemaData = {
       "Escape to nature while enjoying premium cinema. Our Sentul location offers a peaceful movie experience surrounded by beautiful landscapes.",
   },
   "pakuwon-mall": {
-    img: "/pict/cinema/pakuwon.webp",
+    img: "/Sinefolis-Website/pict/cinema/pakuwon.webp",
     name: "Sinéfolis Pakuwon Mall",
     city: "Surabaya",
     address: "Jl. Puncak Indah Lontar No.2, Sambikerep, Surabaya 60219",
@@ -139,7 +139,7 @@ const cinemaData = {
       "East Java's premier cinema destination featuring the latest IMAX and 4DX technology with stunning waterfront views.",
   },
   "sun-plaza": {
-    img: "/pict/cinema/sunplaza.jpg",
+    img: "/Sinefolis-Website/pict/cinema/sunplaza.jpg",
     name: "Sinéfolis Sun Plaza",
     city: "Medan",
     address: "Jl. Zainul Arifin No.7, Kesawan, Medan 20111",
@@ -151,7 +151,7 @@ const cinemaData = {
       "Located in historic Medan, our Sun Plaza cinema blends modern technology with the rich cultural heritage of North Sumatra.",
   },
   "trans-studio-makassar": {
-    img: "/pict/cinema/transStudio.jpg",
+    img: "/Sinefolis-Website/pict/cinema/transStudio.jpg",
     name: "Sinéfolis Trans Studio Makassar",
     city: "Makassar",
     address: "Jl. HM. Dg. Patompo, Makassar 90231",
@@ -163,7 +163,7 @@ const cinemaData = {
       "Combine movies with theme park fun! Our Makassar location offers exciting 4DX experiences and access to Trans Studio theme park.",
   },
   "paragon-semarang": {
-    img: "/pict/cinema/paragon.jpg",
+    img: "/Sinefolis-Website/pict/cinema/paragon.jpg",
     name: "Sinéfolis Paragon Mall",
     city: "Semarang",
     address: "Jl. Pemuda No.118, Sekayu, Semarang 50132",
@@ -175,7 +175,7 @@ const cinemaData = {
       "Experience cinema in the heart of historic Semarang with premium Dolby Atmos sound and luxurious VIP seating.",
   },
   "malioboro-mall": {
-    img: "/pict/cinema/malioboroMall.jpg",
+    img: "/Sinefolis-Website/pict/cinema/malioboroMall.jpg",
     name: "Sinéfolis Malioboro Mall",
     city: "Yogyakarta",
     address: "Jl. Malioboro No.52-58, Sosromenduran, Yogyakarta 55213",
@@ -350,7 +350,7 @@ function closeCinemaModal() {
 }
 
 function goToNowShowing() {
-  window.location.href = "now-showing.html"
+  window.location.href = "/Sinefolis-Website/now-showing.html"
 }
 
 function addCinemaDetailsStyles() {
