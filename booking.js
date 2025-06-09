@@ -36,14 +36,14 @@ const cinemaLocations = [
 const showtimes = ["10:00", "12:30", "15:00", "17:30", "20:00", "22:30"]
 
 const foodMenu = [
-  { id: "popcorn-small", name: "Small Popcorn", price: 25000, image: "/pict/food/smallPopcorn.jpg" },
-  { id: "popcorn-large", name: "Large Popcorn", price: 35000, image: "/pict/food/largePopcorn.jpg" },
-  { id: "soda-small", name: "Small Soda", price: 15000, image: "/pict/food/hotTea.jpg" },
-  { id: "soda-large", name: "Large Soda", price: 20000, image: "/pict/food/largeSoda.jpg" },
-  { id: "nachos", name: "Nachos", price: 30000, image: "/pict/food/nachos.jpg" },
-  { id: "hotdog", name: "Hot Dog", price: 25000, image: "/pict/food/hotdog.jpg" },
-  { id: "combo1", name: "Combo 1 (Popcorn + Soda)", price: 45000, image: "pict/food/popcornCombo.jpg" },
-  { id: "combo2", name: "Combo 2 (Nachos + Soda)", price: 40000, image: "/pict/food/nachosCombo.jpg" },
+  { id: "popcorn-small", name: "Small Popcorn", price: 25000, image: "/Sinefolis-Website/pict/food/smallPopcorn.jpg" },
+  { id: "popcorn-large", name: "Large Popcorn", price: 35000, image: "/Sinefolis-Website/pict/food/largePopcorn.jpg" },
+  { id: "soda-small", name: "Small Soda", price: 15000, image: "/Sinefolis-Website/pict/food/hotTea.jpg" },
+  { id: "soda-large", name: "Large Soda", price: 20000, image: "/Sinefolis-Website/pict/food/largeSoda.jpg" },
+  { id: "nachos", name: "Nachos", price: 30000, image: "/Sinefolis-Website/pict/food/nachos.jpg" },
+  { id: "hotdog", name: "Hot Dog", price: 25000, image: "/Sinefolis-Website/pict/food/hotdog.jpg" },
+  { id: "combo1", name: "Combo 1 (Popcorn + Soda)", price: 45000, image: "/Sinefolis-Website/pict/food/popcornCombo.jpg" },
+  { id: "combo2", name: "Combo 2 (Nachos + Soda)", price: 40000, image: "/Sinefolis-Website/pict/food/nachosCombo.jpg" },
 ]
 
 const validVoucherCodes = {
