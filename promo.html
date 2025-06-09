@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotions - Sinéfolis Cinemas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">Sinéfolis</h1>
+            </div>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="now-showing.html" class="nav-link">Now Showing</a></li>
+                    <li><a href="cinema.html" class="nav-link">Cinema</a></li>
+                    <li><a href="promo.html" class="nav-link active">Promo</a></li>
+                    <li><a href="feedback.html" class="nav-link">Feedback</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn-login">Login</a>
+                    <a href="signup.html" class="btn-signup">Sign Up</a>
+                </div>
+            </nav>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Promo Section -->
+    <section class="promo-section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Exclusive Promotions</h1>
+                <p>Discover amazing deals and special offers at Sinéfolis Cinemas</p>
+            </div>
+
+            <!-- Promo Grid -->
+            <div class="promo-grid">
+                <!-- Member Exclusive Promos -->
+                <div class="promo-card member-promo">
+                    <div class="promo-badge">Member Exclusive</div>
+                    <div class="promo-image">
+                        <img src="/pict/promo/member50.jpg" alt="Member 50% Off">
+                    </div>
+                    <div class="promo-content">
+                        <h3>Member 50% Off Weekend</h3>
+                        <p>Get 50% discount on all movie tickets every weekend for Sinéfolis members only.</p>
+                        <div class="promo-code">
+                            <span>Promo Code:</span>
+                            <div class="code-container">
+                                <code id="code1">MEMBER50</code>
+                                <button class="copy-btn" onclick="copyCode('code1')">
+                                    <i class="fas fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn-details" onclick="showPromoDetails('member50')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="promo-card">
+                    <div class="promo-image">
+                        <img src="/pict/promo/buy2get1.jpg" alt="Buy 2 Get 1 Free">
+                    </div>
+                    <div class="promo-content">
+                        <h3>Buy 2 Get 1 Free Tickets</h3>
+                        <p>Purchase 2 movie tickets and get the 3rd ticket absolutely free. Valid for all movies.</p>
+                        <div class="promo-code">
+                            <span>Promo Code:</span>
+                            <div class="code-container">
+                                <code id="code2">BUY2GET1</code>
+                                <button class="copy-btn" onclick="copyCode('code2')">
+                                    <i class="fas fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn-details" onclick="showPromoDetails('buy2get1')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="promo-card member-promo">
+                    <div class="promo-badge">Member Exclusive</div>
+                    <div class="promo-image">
+                        <img src="/pict/promo/freePopcorn.jpg" alt="Free Popcorn">
+                    </div>
+                    <div class="promo-content">
+                        <h3>Free Large Popcorn</h3>
+                        <p>Enjoy a complimentary large popcorn with every ticket purchase for members.</p>
+                        <div class="promo-code">
+                            <span>Promo Code:</span>
+                            <div class="code-container">
+                                <code id="code3">FREEPOPCORN</code>
+                                <button class="copy-btn" onclick="copyCode('code3')">
+                                    <i class="fas fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn-details" onclick="showPromoDetails('freepopcorn')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="promo-card">
+                    <div class="promo-image">
+                        <img src="/pict/promo/studentDiscount.jpg" alt="Student Discount">
+                    </div>
+                    <div class="promo-content">
+                        <h3>Student Discount 30%</h3>
+                        <p>Students get 30% off on all movie tickets. Valid with student ID verification.</p>
+                        <div class="promo-code">
+                            <span>Promo Code:</span>
+                            <div class="code-container">
+                                <code id="code4">STUDENT30</code>
+                                <button class="copy-btn" onclick="copyCode('code4')">
+                                    <i class="fas fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn-details" onclick="showPromoDetails('student30')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="promo-card">
+                    <div class="promo-image">
+                        <img src="/pict/promo/familyPackage.jpg" alt="Family Package">
+                    </div>
+                    <div class="promo-content">
+                        <h3>Family Package Deal</h3>
+                        <p>Special family package: 4 tickets + 2 large popcorns + 4 drinks for only IDR 200,000.</p>
+                        <div class="promo-code">
+                            <span>Promo Code:</span>
+                            <div class="code-container">
+                                <code id="code5">FAMILY4</code>
+                                <button class="copy-btn" onclick="copyCode('code5')">
+                                    <i class="fas fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn-details" onclick="showPromoDetails('family4')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="promo-card">
+                    <div class="promo-image">
+                        <img src="/pict/promo/birthdaySpecial.jpg" alt="Birthday Special">
+                    </div>
+                    <div class="promo-content">
+                        <h3>Birthday Special Offer</h3>
+                        <p>Celebrate your birthday with us! Free movie ticket on your birthday month.</p>
+                        <div class="promo-code">
+                            <span>Promo Code:</span>
+                            <div class="code-container">
+                                <code id="code6">BIRTHDAY</code>
+                                <button class="copy-btn" onclick="copyCode('code6')">
+                                    <i class="fas fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn-details" onclick="showPromoDetails('birthday')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="promo-card member-promo">
+                    <div class="promo-badge">Member Exclusive</div>
+                    <div class="promo-image">
+                        <img src="/pict/promo/vipUpgrade.jpg" alt="VIP Upgrade">
+                    </div>
+                    <div class="promo-content">
+                        <h3>Free VIP Upgrade</h3>
+                        <p>Members get complimentary VIP seat upgrade on weekdays (subject to availability).</p>
+                        <div class="promo-code">
+                            <span>Promo Code:</span>
+                            <div class="code-container">
+                                <code id="code7">VIPUPGRADE</code>
+                                <button class="copy-btn" onclick="copyCode('code7')">
+                                    <i class="fas fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn-details" onclick="showPromoDetails('vipupgrade')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="promo-card">
+                    <div class="promo-image">
+                        <img src="/pict/promo/earlyBird.jpg" alt="Early Bird">
+                    </div>
+                    <div class="promo-content">
+                        <h3>Early Bird 25% Off</h3>
+                        <p>Book tickets for shows before 2 PM and save 25% on your purchase.</p>
+                        <div class="promo-code">
+                            <span>Promo Code:</span>
+                            <div class="code-container">
+                                <code id="code8">EARLYBIRD</code>
+                                <button class="copy-btn" onclick="copyCode('code8')">
+                                    <i class="fas fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn-details" onclick="showPromoDetails('earlybird')">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Details Modal -->
+    <div id="promoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closePromoModal()">&times;</span>
+            <div id="promoDetails"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sinéfolis</h3>
+                    <p>Indonesia's premier cinema experience with luxury and technology combined.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="now-showing.html">Now Showing</a></li>
+                        <li><a href="cinema.html">Cinema Locations</a></li>
+                        <li><a href="promo.html">Promotions</a></li>
+                        <li><a href="feedback.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +62 21 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@sinefolis.com</li>
+                        <li><i class="fas fa-clock"></i> 24/7 Support</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sinéfolis Cinemas. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/promo.js"></script>
+</body>
+</html>

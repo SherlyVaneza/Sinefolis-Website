@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinéfolis Cinemas - Premium Movie Experience</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">Sinéfolis</h1>
+            </div>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="now-showing.html" class="nav-link">Now Showing</a></li>
+                    <li><a href="cinema.html" class="nav-link">Cinema</a></li>
+                    <li><a href="promo.html" class="nav-link">Promo</a></li>
+                    <li><a href="feedback.html" class="nav-link">Feedback</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn-login">Login</a>
+                    <a href="signup.html" class="btn-signup">Sign Up</a>
+                </div>
+            </nav>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider" id="heroSlider">
+            <div class="slide active">
+                <img src="/pict/landscape_poster/dune2.webp" alt="Dune: Part Two">
+                <div class="slide-content">
+                    <h2>Dune: Part Two</h2>
+                    <p>Epic sci-fi adventure continues</p>
+                    <button class="btn-book" onclick="location.href='now-showing.html'">Book Tickets</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="/pict/landscape_poster/oppenheimer.jpg" alt="Oppenheimer">
+                <div class="slide-content">
+                    <h2>Oppenheimer</h2>
+                    <p>The story of the atomic bomb</p>
+                    <button class="btn-book" onclick="location.href='now-showing.html'">Book Tickets</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="/pict/landscape_poster/barbie.jpg" alt="Barbie">
+                <div class="slide-content">
+                    <h2>Barbie</h2>
+                    <p>Life in plastic, it's fantastic</p>
+                    <button class="btn-book" onclick="location.href='now-showing.html'">Book Tickets</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="/pict/landscape_poster/spiderman.jpg" alt="Spider-Man">
+                <div class="slide-content">
+                    <h2>Spider-Man: Across the Spider-Verse</h2>
+                    <p>Multiverse adventure awaits</p>
+                    <button class="btn-book" onclick="location.href='now-showing.html'">Book Tickets</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="slider-dots" id="sliderDots"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Sinéfolis</h2>
+                    <p>Sinéfolis Cinemas is Indonesia's premier movie theater chain, offering an unparalleled cinematic experience with state-of-the-art technology and luxurious amenities. With over 50 locations across 10 major cities and more than 200 screens nationwide, we bring you the latest blockbusters and independent films in crystal-clear quality.</p>
+                    <p>Our theaters feature cutting-edge Dolby Atmos sound systems, 4K laser projection, and premium reclining seats that transform every visit into an unforgettable journey.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Cinema Locations</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>200+</h3>
+                            <p>Screens</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10</h3>
+                            <p>Major Cities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="/pict/cinema_interior.jpeg" alt="Sinéfolis Cinema Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movie Highlights -->
+    <section class="movie-highlights">
+        <div class="container">
+            <h2>Movie Highlights</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="/pict/The_Batman_(film)_poster.jpeg" alt="The Batman">
+                    <div class="movie-info">
+                        <h3>The Batman</h3>
+                        <p>Action, Crime</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="/pict/Potrait_Poster/TopGun.webp" alt="Top Gun: Maverick">
+                    <div class="movie-info">
+                        <h3>Top Gun: Maverick</h3>
+                        <p>Action, Drama</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="/pict/Potrait_Poster/Avatar.webp" alt="Avatar: The Way of Water">
+                    <div class="movie-info">
+                        <h3>Avatar: The Way of Water</h3>
+                        <p>Sci-Fi, Adventure</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="/pict/Potrait_Poster/transformers.jpg" alt="Transformers: Rise of the Beasts">
+                    <div class="movie-info">
+                        <h3>Transformers: Rise of the Beasts</h3>
+                        <p>Sci-Fi, Action</p>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="now-showing.html" class="btn-primary">View More Movies</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section class="membership-section">
+        <div class="container">
+            <div class="membership-content">
+                <div class="membership-text">
+                    <h2>Sinéfolis Membership</h2>
+                    <p>Join our exclusive membership program and enjoy premium benefits including priority booking, special discounts, and VIP access to premiere screenings.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 20% discount on all tickets</li>
+                        <li><i class="fas fa-check"></i> Free popcorn on your birthday</li>
+                        <li><i class="fas fa-check"></i> Priority seat selection</li>
+                        <li><i class="fas fa-check"></i> Exclusive member screenings</li>
+                    </ul>
+                    <a href="promo.html" class="btn-primary">View All Membership Promotions</a>
+                </div>
+                <div class="membership-image">
+                    <img src="/pict/membershipCard.png" alt="Membership Card">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="news-section">
+        <div class="container">
+            <h2>Latest Movie News</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <img src="/pict/News/marvel.webp" alt="Movie News">
+                    <div class="news-content">
+                        <h3>Marvel Announces New Phase 5 Movies</h3>
+                        <p>Get ready for an exciting lineup of superhero adventures coming to Sinéfolis theaters...</p>
+                        <span class="news-date">December 15, 2024</span>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="/pict/News/imax.jpeg" alt="Movie News">
+                    <div class="news-content">
+                        <h3>IMAX Experience Now Available</h3>
+                        <p>Experience movies like never before with our new IMAX theaters in select locations...</p>
+                        <span class="news-date">December 10, 2024</span>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="/pict/News/holiday.jpg" alt="Movie News">
+                    <div class="news-content">
+                        <h3>Holiday Special Screenings</h3>
+                        <p>Join us for special holiday movie marathons and family-friendly screenings...</p>
+                        <span class="news-date">December 5, 2024</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sinéfolis</h3>
+                    <p>Indonesia's premier cinema experience with luxury and technology combined.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="now-showing.html">Now Showing</a></li>
+                        <li><a href="cinema.html">Cinema Locations</a></li>
+                        <li><a href="promo.html">Promotions</a></li>
+                        <li><a href="feedback.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +62 21 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@sinefolis.com</li>
+                        <li><i class="fas fa-clock"></i> 24/7 Support</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sinéfolis Cinemas. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
